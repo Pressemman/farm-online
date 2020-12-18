@@ -1,0 +1,116 @@
+/*for home page*/
+header {
+	background-color: green;
+	height: 90vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,200,0,0.3),rgba(0,200,0,0.3)), url(img/homepage/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 55vh;
+}
+.fluid-home {
+	height: 15em;
+	width: 100%;
+}
+/*for contact page*/
+.header-2 {
+	background-color: green;
+	height: 80vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,200,0,0.3),rgba(0,200,0,0.3)), url(img/homepage/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 55vh;
+}
+/*for product*/
+.header-3 {
+	background-color: green;
+	height: 80vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,200,0,0.3),rgba(0,200,0,0.3)), url(img/homepage/3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 55vh;
+}
+
+.navbar-header a{
+	/*background-color: white;*/
+	color: green;
+}
+.welcome {
+	color: #fff;
+	font-size: xx-large;
+	margin-top: -100px;
+	font-weight: bold;  
+}
+.welcome-btn {
+	background: transparent;
+	border: 2px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 50px;
+}
+.welcome-btn:hover {
+	border: 2px solid #ace69a;
+}
+h4 {
+	text-align: center;
+	margin-top: 1.5em;
+}
+.client-pic {
+	width: 10em;
+	/*height: 10em;*/
+	/*margin-top: -5em;
+	margin-left: 4em;*/
+}
+.card-body {
+	margin-top: -100px;
+	position: relative;
+}
+/*.img-fluid {
+	min-height: 80%;
+	max-height: 80%;
+	margin-bottom: 2em;
+}*/
+.jumbotron1 {
+	background:#dcdcdc;
+	border-radius: 5px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+footer {
+	background-color: #777;
+	color: #fff;
+	padding: 10px 0;
+}
+
+@media only screen and (max-width:768px)
+{
+	.fluid-home {
+		width: 100%;
+		padding: 0px;
+	}
+	.client-pic {
+		margin-bottom: 
+	}
+	.client-pic-div {
+		margin-bottom: 90px;
+	}
+	#last-div {
+		margin-bottom: 0px;
+	}
+	.welcome {
+	color: #fff;
+	font-size: x-large;
+	margin-top: -80px;
+	font-weight: bold;  
+}
+.welcome-btn {
+	background: transparent;
+	border: 2px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+}
